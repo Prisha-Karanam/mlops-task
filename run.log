@@ -1,0 +1,18 @@
+2026-06-09T14:08:52 | INFO     | ============================================================
+2026-06-09T14:08:52 | INFO     | Job start
+2026-06-09T14:08:52 | INFO     |   input   : data.csv
+2026-06-09T14:08:52 | INFO     |   config  : config.yaml
+2026-06-09T14:08:52 | INFO     |   output  : metrics.json
+2026-06-09T14:08:52 | INFO     |   log-file: run.log
+2026-06-09T14:08:52 | INFO     | ============================================================
+2026-06-09T14:08:52 | INFO     | Config loaded — seed=42  window=5  version=v1
+2026-06-09T14:08:52 | INFO     | NumPy random seed set to 42
+2026-06-09T14:08:52 | INFO     | Dataset loaded — 10000 rows, columns: ['id', 'open', 'high', 'low', 'close', 'volume']
+2026-06-09T14:08:52 | INFO     | Computing rolling mean (window=5) …
+2026-06-09T14:08:52 | DEBUG    | Rolling mean computed — window=5, NaN prefix rows=4
+2026-06-09T14:08:52 | INFO     | Generating binary signal …
+2026-06-09T14:08:52 | DEBUG    | Signal computed — valid rows=9996, NaN rows excluded=4
+2026-06-09T14:08:52 | INFO     | Metrics summary — rows_processed=9996  signal_rate=0.5002  latency_ms=6
+2026-06-09T14:08:52 | INFO     | Metrics written to metrics.json
+2026-06-09T14:08:52 | INFO     | Job completed successfully
+2026-06-09T14:08:52 | INFO     | ============================================================
